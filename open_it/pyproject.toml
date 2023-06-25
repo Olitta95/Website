@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "open-it"
+version = "0.1.0"
+description = ""
+authors = ["KukushkinaOlga <Lesnikovaolga1995@mail.ru>"]
+readme = "README.md"
+packages = [{include = "open_it"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+djangorestframework = "^3.14.0"
+psycopg2 = "^2.9.6"
+django-environ = "^0.10.0"
+django = "^4.2.2"
+prospector = "^1.10.2"
+djoser = "^2.2.0"
+pillow = "^9.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
